@@ -24,24 +24,29 @@ const Products = () => {
       {/* Main Product - Línea Estándar */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl shadow-2xl overflow-hidden border-2 border-primary/20 transition-all duration-500 hover:shadow-[0_20px_60px_rgba(45,80,22,0.3)] hover:scale-[1.02]">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="relative h-96 lg:h-full overflow-hidden group">
-                <img
-                  src={productsData[0].image}
-                  alt={productsData[0].name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute top-6 left-6 bg-primary text-white px-6 py-3 rounded-full font-bold text-xl shadow-lg">
-                  {productsData[0].protein} Proteínas
+          <Link to={`/productos/${productsData[0].slug}`}>
+            <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl shadow-2xl overflow-hidden border-2 border-primary/20 transition-all duration-500 hover:shadow-[0_20px_60px_rgba(45,80,22,0.3)] hover:scale-[1.02] cursor-pointer group">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div className="relative h-96 lg:h-full overflow-hidden">
+                  <img
+                    src={productsData[0].image}
+                    alt={productsData[0].name}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute top-6 left-6 bg-primary text-white px-6 py-3 rounded-full font-bold text-xl shadow-lg">
+                    {productsData[0].protein} Proteínas
+                  </div>
+                  <div className="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <p className="text-lg font-semibold">Click para ver detalles completos →</p>
+                  </div>
                 </div>
-              </div>
 
               <div className="p-8 lg:p-12">
                 <div className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full font-semibold mb-4">
                   ⭐ Producto Destacado
                 </div>
-                <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
+                <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4 group-hover:text-primary transition-colors">
                   {productsData[0].name}
                 </h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -66,19 +71,24 @@ const Products = () => {
                   </p>
                 </div>
 
-                <a
-                  href={getProductWhatsAppLink(productsData[0].name)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="btn-whatsapp text-lg w-full md:w-auto justify-center">
-                    <FaWhatsapp className="text-2xl" />
-                    Consultar por este producto
-                  </button>
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3" onClick={(e) => e.preventDefault()}>
+                  <a
+                    href={getProductWhatsAppLink(productsData[0].name)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button className="btn-whatsapp text-lg w-full justify-center">
+                      <FaWhatsapp className="text-2xl" />
+                      Consultar
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
+            </div>
+          </Link>
         </div>
       </section>
 

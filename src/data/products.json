@@ -44,7 +44,8 @@
     "ingredients": "Carne y pollo como principales fuentes de proteína animal",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Nutrición Ganadera - Línea Estándar",
     "featured": true,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   },
   {
     "id": 2,
@@ -91,7 +92,8 @@
     "ingredients": "Pollo, arroz, maíz, vitaminas y minerales",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Premium Cachorro",
     "featured": true,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   },
   {
     "id": 3,
@@ -138,7 +140,8 @@
     "ingredients": "Carne, cereales integrales, aceites vegetales",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Adult Energy",
     "featured": false,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   },
   {
     "id": 4,
@@ -185,7 +188,8 @@
     "ingredients": "Pollo, arroz, glucosamina, condroitina",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Senior Care",
     "featured": false,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   },
   {
     "id": 5,
@@ -232,7 +236,8 @@
     "ingredients": "Pollo, pescado, cereales, vitaminas",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Mini Breed",
     "featured": true,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   },
   {
     "id": 6,
@@ -279,6 +284,7 @@
     "ingredients": "Carne, pollo, arroz integral, aceite de pescado",
     "whatsappMessage": "Hola! Me interesa consultar por el producto: Large Breed Adult",
     "featured": false,
-    "price": "Consultar"
+    "price": "Consultar",
+    "technicalSheet": "/ficha-tecnica.html"
   }
 ]

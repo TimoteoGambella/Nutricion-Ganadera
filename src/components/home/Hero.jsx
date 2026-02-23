@@ -27,13 +27,13 @@ const Hero = () => {
               Desarrollamos alimentos con ingredientes seleccionados, alto valor de proteína animal y estándares de calidad que garantizan equilibrio nutricional en cada etapa de vida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Link to="/productos">
-                <button className="btn-primary text-lg">
+              <Link to="/productos" className="w-full sm:w-auto">
+                <button className="btn-primary text-lg w-full sm:w-auto">
                   Ver Productos
                 </button>
               </Link>
-              <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
-                <button className="btn-whatsapp text-lg">
+              <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <button className="btn-whatsapp text-lg w-full sm:w-auto justify-center">
                   <FaWhatsapp className="text-2xl" />
                   Contactar
                 </button>

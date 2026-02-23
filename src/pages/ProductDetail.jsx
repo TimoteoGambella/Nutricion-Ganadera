@@ -1,5 +1,5 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { FaWhatsapp, FaChevronLeft, FaCheckCircle } from 'react-icons/fa'
+import { FaWhatsapp, FaChevronLeft, FaCheckCircle, FaDownload } from 'react-icons/fa'
 import productsData from '../data/products.json'
 import { getProductWhatsAppLink } from '../utils/whatsapp'
 import ImageGallery from '../components/ImageGallery'
@@ -66,7 +66,7 @@ const ProductDetail = () => {
               {/* Header */}
               <div className="mb-6">
                 {product.featured && (
-                  <span className="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full font-bold text-sm mb-4 animate-pulse">
+                  <span className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full font-semibold text-sm mb-4 border-2 border-green-300">
                     ⭐ Producto Destacado
                   </span>
                 )}
@@ -92,16 +92,32 @@ const ProductDetail = () => {
                 <p className="text-gray-600 mb-4">
                   Contactanos por WhatsApp para recibir información sobre precios, presentaciones disponibles y puntos de venta.
                 </p>
-                <a
-                  href={getProductWhatsAppLink(product.name)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="btn-whatsapp text-lg w-full justify-center">
-                    <FaWhatsapp className="text-2xl" />
-                    Consultar por WhatsApp
-                  </button>
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <a
+                    href={getProductWhatsAppLink(product.name)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1"
+                  >
+                    <button className="btn-whatsapp text-lg w-full justify-center">
+                      <FaWhatsapp className="text-2xl" />
+                      Consultar por WhatsApp
+                    </button>
+                  </a>
+                  {product.technicalSheet && (
+                    <a
+                      href={product.technicalSheet}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
+                    >
+                      <button className="bg-primary hover:bg-primary-light text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 flex items-center gap-2 shadow-md hover:shadow-lg w-full justify-center text-lg">
+                        <FaDownload className="text-xl" />
+                        Ficha Técnica
+                      </button>
+                    </a>
+                  )}
+                </div>
               </div>
 
               {/* Detailed Description */}

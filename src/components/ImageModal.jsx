@@ -6,7 +6,7 @@ const ImageModal = ({ image, alt, isOpen, onClose }) => {
 
   return (
     <div 
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 animate-fadeIn"
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/90 p-4 animate-fadeIn"
       onClick={onClose}
     >
       <button
