@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Veterinaria San Martín",
+    "address": "Av. San Martín 1234, CABA",
+    "phone": "011-1234-5678",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "type": "veterinaria",
+    "city": "Buenos Aires"
+  },
+  {
+    "id": 2,
+    "name": "Pet Shop El Rincón",
+    "address": "Calle Falsa 123, Rosario",
+    "phone": "0341-555-1234",
+    "lat": -32.9442,
+    "lng": -60.6505,
+    "type": "petshop",
+    "city": "Rosario"
+  },
+  {
+    "id": 3,
+    "name": "Veterinaria Central",
+    "address": "Av. Colón 456, Córdoba",
+    "phone": "0351-444-5678",
+    "lat": -31.4201,
+    "lng": -64.1888,
+    "type": "veterinaria",
+    "city": "Córdoba"
+  },
+  {
+    "id": 4,
+    "name": "Agro Pet Mendoza",
+    "address": "San Martín 789, Mendoza",
+    "phone": "0261-333-9012",
+    "lat": -32.8895,
+    "lng": -68.8458,
+    "type": "agropecuaria",
+    "city": "Mendoza"
+  }
+]

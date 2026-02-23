@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "name": "Nutrición Ganadera - Línea Estándar",
+    "slug": "linea-estandar",
+    "category": "perros-adultos",
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+      "https://images.unsplash.com/photo-1534361960057-19889db9621e?w=800&q=80"
+    ],
+    "description": "Nuestra línea estándar de alimentos está desarrollada para ofrecer un aporte completo y confiable en el uso cotidiano. Su fórmula, elaborada con carne y pollo como principales fuentes de proteína animal, proporciona la energía necesaria para acompañar la actividad y el bienestar general.",
+    "detailedDescription": "La Línea Estándar de Nutrición Ganadera representa nuestro compromiso con la calidad y la nutrición balanceada. Cada croqueta está cuidadosamente formulada con ingredientes de primera calidad, incluyendo carne y pollo como fuentes principales de proteína animal. Esta combinación proporciona todos los aminoácidos esenciales necesarios para mantener la masa muscular, energía y vitalidad de tu perro. Además, nuestro proceso de cocción garantiza una alta digestibilidad, permitiendo que tu mascota aproveche al máximo cada porción.",
+    "benefits": [
+      "Proteínas de alta calidad (24%) para desarrollo muscular óptimo",
+      "Carne y pollo como fuentes principales de proteína animal",
+      "Sistema de cocción que garantiza alta digestibilidad",
+      "Ácidos grasos Omega 3 y 6 para un pelaje brillante y saludable",
+      "Vitaminas y minerales balanceados para sistema inmune fuerte",
+      "Sin colorantes artificiales"
+    ],
+    "nutritionalInfo": {
+      "protein": "24%",
+      "fat": "12%",
+      "fiber": "4%",
+      "moisture": "10%",
+      "ash": "8%"
+    },
+    "feedingGuide": [
+      { "weight": "2-5 kg", "amount": "50-100 g" },
+      { "weight": "5-10 kg", "amount": "100-180 g" },
+      { "weight": "10-20 kg", "amount": "180-300 g" },
+      { "weight": "20-30 kg", "amount": "300-400 g" },
+      { "weight": "+30 kg", "amount": "400-550 g" }
+    ],
+    "features": [
+      "24% Proteínas",
+      "Carne y Pollo",
+      "Alta Digestibilidad",
+      "Pelaje Sano y Brillante"
+    ],
+    "protein": "24%",
+    "ingredients": "Carne y pollo como principales fuentes de proteína animal",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Nutrición Ganadera - Línea Estándar",
+    "featured": true,
+    "price": "Consultar"
+  },
+  {
+    "id": 2,
+    "name": "Premium Cachorro",
+    "slug": "premium-cachorro",
+    "category": "cachorros",
+    "image": "https://images.unsplash.com/photo-1629736744253-72550ad3353b?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1629736744253-72550ad3353b?w=800&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80"
+    ],
+    "description": "Formulación especial para cachorros en crecimiento, con DHA para desarrollo cerebral y niveles óptimos de calcio y fósforo para huesos y articulaciones fuertes.",
+    "detailedDescription": "Premium Cachorro está especialmente diseñado para las etapas más importantes de crecimiento de tu mascota. Con un 26% de proteína de alta calidad y DHA para el desarrollo cerebral, este alimento proporciona todos los nutrientes esenciales que tu cachorro necesita. La relación óptima de calcio y fósforo asegura el desarrollo correcto de huesos y articulaciones, mientras que las proteínas de fácil digestión garantizan una absorción máxima de nutrientes.",
+    "benefits": [
+      "26% de proteína para crecimiento óptimo",
+      "DHA para desarrollo cerebral y visión",
+      "Calcio y fósforo balanceados para huesos fuertes",
+      "Fórmula de fácil digestión para estómagos sensibles",
+      "Antioxidantes para fortalecer sistema inmune",
+      "Tamaño de croqueta adaptado para cachorros"
+    ],
+    "nutritionalInfo": {
+      "protein": "26%",
+      "fat": "14%",
+      "fiber": "3.5%",
+      "moisture": "10%",
+      "ash": "8%"
+    },
+    "feedingGuide": [
+      { "weight": "1-3 kg", "amount": "40-80 g" },
+      { "weight": "3-5 kg", "amount": "80-120 g" },
+      { "weight": "5-10 kg", "amount": "120-200 g" },
+      { "weight": "10-20 kg", "amount": "200-350 g" },
+      { "weight": "+20 kg", "amount": "350-500 g" }
+    ],
+    "features": [
+      "26% Proteínas",
+      "DHA para cerebro",
+      "Calcio y Fósforo",
+      "Digestión óptima"
+    ],
+    "protein": "26%",
+    "ingredients": "Pollo, arroz, maíz, vitaminas y minerales",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Premium Cachorro",
+    "featured": true,
+    "price": "Consultar"
+  },
+  {
+    "id": 3,
+    "name": "Adult Energy",
+    "slug": "adult-energy",
+    "category": "perros-adultos",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80"
+    ],
+    "description": "Ideal para perros adultos con actividad normal a alta. Balance perfecto de energía y nutrientes para mantener la vitalidad de tu mascota.",
+    "detailedDescription": "Adult Energy está formulado para perros adultos activos que necesitan un aporte energético balanceado. Con 23% de proteína y una mezcla equilibrada de carbohidratos de calidad, este alimento proporciona la energía sostenida que tu perro necesita para su día a día. Los ácidos grasos Omega 3 y 6 mantienen el pelaje brillante y la piel saludable, mientras que los antioxidantes naturales fortalecen el sistema inmunológico.",
+    "benefits": [
+      "23% de proteína para mantenimiento muscular",
+      "Energía balanceada para perros activos",
+      "Omega 3 y 6 para pelaje brillante y piel saludable",
+      "Antioxidantes naturales para sistema inmune",
+      "Fibra prebiótica para salud digestiva",
+      "Sin conservantes artificiales"
+    ],
+    "nutritionalInfo": {
+      "protein": "23%",
+      "fat": "13%",
+      "fiber": "4%",
+      "moisture": "10%",
+      "ash": "7.5%"
+    },
+    "feedingGuide": [
+      { "weight": "5-10 kg", "amount": "110-190 g" },
+      { "weight": "10-20 kg", "amount": "190-320 g" },
+      { "weight": "20-30 kg", "amount": "320-430 g" },
+      { "weight": "30-40 kg", "amount": "430-530 g" },
+      { "weight": "+40 kg", "amount": "530-650 g" }
+    ],
+    "features": [
+      "23% Proteínas",
+      "Omega 3 y 6",
+      "Antioxidantes",
+      "Energía balanceada"
+    ],
+    "protein": "23%",
+    "ingredients": "Carne, cereales integrales, aceites vegetales",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Adult Energy",
+    "featured": false,
+    "price": "Consultar"
+  },
+  {
+    "id": 4,
+    "name": "Senior Care",
+    "slug": "senior-care",
+    "category": "perros-senior",
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80"
+    ],
+    "description": "Especialmente formulado para perros mayores. Con glucosamina para articulaciones y antioxidantes para fortalecer el sistema inmune.",
+    "detailedDescription": "Senior Care reconoce las necesidades únicas de los perros mayores. Con un contenido moderado de proteína (21%) y bajo en grasas, este alimento ayuda a mantener un peso saludable mientras proporciona todos los nutrientes esenciales. La glucosamina y condroitina cuidan las articulaciones, mientras que los antioxidantes reforzados ayudan a combatir el envejecimiento celular. La fórmula es altamente digestible para garantizar una absorción óptima de nutrientes.",
+    "benefits": [
+      "21% de proteína de alta calidad para mantener masa muscular",
+      "Glucosamina y condroitina para salud articular",
+      "Bajo contenido de grasas para control de peso",
+      "Antioxidantes reforzados para combatir el envejecimiento",
+      "Fibra especial para digestión óptima",
+      "Vitaminas B para función cerebral"
+    ],
+    "nutritionalInfo": {
+      "protein": "21%",
+      "fat": "10%",
+      "fiber": "4.5%",
+      "moisture": "10%",
+      "ash": "7%"
+    },
+    "feedingGuide": [
+      { "weight": "5-10 kg", "amount": "90-160 g" },
+      { "weight": "10-20 kg", "amount": "160-270 g" },
+      { "weight": "20-30 kg", "amount": "270-360 g" },
+      { "weight": "30-40 kg", "amount": "360-450 g" },
+      { "weight": "+40 kg", "amount": "450-550 g" }
+    ],
+    "features": [
+      "21% Proteínas",
+      "Glucosamina",
+      "Bajo en grasas",
+      "Fácil digestión"
+    ],
+    "protein": "21%",
+    "ingredients": "Pollo, arroz, glucosamina, condroitina",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Senior Care",
+    "featured": false,
+    "price": "Consultar"
+  },
+  {
+    "id": 5,
+    "name": "Mini Breed",
+    "slug": "mini-breed",
+    "category": "razas-pequeñas",
+    "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=800&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80"
+    ],
+    "description": "Diseñado especialmente para razas pequeñas. Croquetas de tamaño reducido con alta densidad nutricional para cubrir las necesidades energéticas de perros pequeños.",
+    "detailedDescription": "Mini Breed está específicamente formulado para las necesidades únicas de las razas pequeñas. Las croquetas de tamaño reducido facilitan la masticación y digestión, mientras que la alta densidad nutricional garantiza que incluso las porciones pequeñas proporcionen toda la energía y nutrientes necesarios. Con 25% de proteína y una mezcla balanceada de grasas, este alimento mantiene a tu pequeño compañero activo y saludable.",
+    "benefits": [
+      "25% de proteína para energía en razas pequeñas",
+      "Croquetas pequeñas adaptadas al tamaño de la boca",
+      "Alta densidad energética para metabolismo acelerado",
+      "Omega 3 y 6 para pelaje sedoso y brillante",
+      "Nutrientes concentrados en cada porción",
+      "Fórmula equilibrada para control dental"
+    ],
+    "nutritionalInfo": {
+      "protein": "25%",
+      "fat": "15%",
+      "fiber": "3.5%",
+      "moisture": "10%",
+      "ash": "7.5%"
+    },
+    "feedingGuide": [
+      { "weight": "1-2 kg", "amount": "30-50 g" },
+      { "weight": "2-3 kg", "amount": "50-70 g" },
+      { "weight": "3-5 kg", "amount": "70-100 g" },
+      { "weight": "5-7 kg", "amount": "100-130 g" },
+      { "weight": "7-10 kg", "amount": "130-170 g" }
+    ],
+    "features": [
+      "25% Proteínas",
+      "Croquetas pequeñas",
+      "Alta energía",
+      "Pelaje brillante"
+    ],
+    "protein": "25%",
+    "ingredients": "Pollo, pescado, cereales, vitaminas",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Mini Breed",
+    "featured": true,
+    "price": "Consultar"
+  },
+  {
+    "id": 6,
+    "name": "Large Breed Adult",
+    "slug": "large-breed-adult",
+    "category": "razas-grandes",
+    "image": "https://images.unsplash.com/photo-1568572933382-74d440642117?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1568572933382-74d440642117?w=800&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1534361960057-19889db9621e?w=800&q=80"
+    ],
+    "description": "Formulación específica para razas grandes. Con glucosamina y condroitina para cuidado articular y nutrientes balanceados para control de peso.",
+    "detailedDescription": "Large Breed Adult reconoce los desafíos únicos de las razas grandes. Con una fórmula balanceada que incluye 24% de proteína y niveles controlados de grasas, ayuda a mantener un peso saludable reduciendo el estrés en articulaciones. La glucosamina y condroitina protegen el cartílago articular, mientras que el aceite de pescado proporciona omega 3 antiinflamatorio. Las croquetas de tamaño adaptado promueven una masticación adecuada.",
+    "benefits": [
+      "24% de proteína para masa muscular sin exceso de calorías",
+      "Glucosamina y condroitina para protección articular",
+      "Fórmula balanceada para control de peso",
+      "Aceite de pescado rico en omega 3 antiinflamatorio",
+      "Croquetas grandes para masticación adecuada",
+      "Minerales balanceados para salud ósea"
+    ],
+    "nutritionalInfo": {
+      "protein": "24%",
+      "fat": "11%",
+      "fiber": "4%",
+      "moisture": "10%",
+      "ash": "7.5%"
+    },
+    "feedingGuide": [
+      { "weight": "20-30 kg", "amount": "280-380 g" },
+      { "weight": "30-40 kg", "amount": "380-480 g" },
+      { "weight": "40-50 kg", "amount": "480-570 g" },
+      { "weight": "50-60 kg", "amount": "570-650 g" },
+      { "weight": "+60 kg", "amount": "650-750 g" }
+    ],
+    "features": [
+      "24% Proteínas",
+      "Glucosamina + Condroitina",
+      "Control de peso",
+      "Articulaciones sanas"
+    ],
+    "protein": "24%",
+    "ingredients": "Carne, pollo, arroz integral, aceite de pescado",
+    "whatsappMessage": "Hola! Me interesa consultar por el producto: Large Breed Adult",
+    "featured": false,
+    "price": "Consultar"
+  }
+]

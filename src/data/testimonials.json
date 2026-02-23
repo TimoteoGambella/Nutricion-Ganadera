@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "María González",
+    "location": "Buenos Aires",
+    "image": "https://i.pravatar.cc/150?img=1",
+    "rating": 5,
+    "text": "Mi perro está más saludable y con más energía desde que comenzamos a usar Nutrición Ganadera. El pelaje le brilla como nunca y tiene mucha más vitalidad. ¡Excelente producto!",
+    "petName": "Rocky",
+    "petBreed": "Golden Retriever"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Fernández",
+    "location": "Rosario, Santa Fe",
+    "image": "https://i.pravatar.cc/150?img=12",
+    "rating": 5,
+    "text": "Llevo 6 meses usando Nutrición Ganadera y la diferencia es notable. Mi perra tiene mejor digestión y se nota en su estado de ánimo. Totalmente recomendable.",
+    "petName": "Luna",
+    "petBreed": "Labrador"
+  },
+  {
+    "id": 3,
+    "name": "Ana Martínez",
+    "location": "Córdoba",
+    "image": "https://i.pravatar.cc/150?img=5",
+    "rating": 5,
+    "text": "Mi cachorro creció fuerte y sano gracias a Nutrición Ganadera. La calidad del alimento se nota, los ingredientes son excelentes y el precio muy accesible.",
+    "petName": "Max",
+    "petBreed": "Pastor Alemán"
+  },
+  {
+    "id": 4,
+    "name": "Roberto Díaz",
+    "location": "Mendoza",
+    "image": "https://i.pravatar.cc/150?img=8",
+    "rating": 5,
+    "text": "Tengo 3 perros y desde que cambié a Nutrición Ganadera noté mejoras en todos. Menos olor en las heces, mejor pelaje y más energía. Muy conforme con el producto.",
+    "petName": "Zeus, Thor y Loki",
+    "petBreed": "Cruza"
+  },
+  {
+    "id": 5,
+    "name": "Laura Sánchez",
+    "location": "La Plata",
+    "image": "https://i.pravatar.cc/150?img=9",
+    "rating": 5,
+    "text": "Mi perro senior tiene problemas articulares y desde que usa la línea Senior Care de Nutrición Ganadera se mueve mucho mejor. Estoy muy agradecida, es un excelente producto.",
+    "petName": "Toby",
+    "petBreed": "Beagle"
+  }
+]
